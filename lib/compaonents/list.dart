@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 // ignore: type_argument_not_matching_bounds
+class List extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => new ListState();
+}
+
 class ListState extends State<List> {
   @override
   Widget build(BuildContext context) {
